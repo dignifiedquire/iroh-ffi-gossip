@@ -2220,6 +2220,7 @@ dependencies = [
 [[package]]
 name = "iroh-ffi"
 version = "0.31.0"
+source = "git+https://github.com/n0-computer/iroh-ffi?branch=feat-external-protos#6998a11e976b2d267786992481c93fac62a03186"
 dependencies = [
  "anyhow",
  "async-trait",

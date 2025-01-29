@@ -58,7 +58,8 @@ derive_more = { version = "1.0.0", features = ["debug"] }
 quic-rpc = "0.17"
 rand = "0.8"
 
-iroh-ffi = { path = "../iroh-ffi" }
+# iroh-ffi = { path = "../iroh-ffi" }
+iroh-ffi = { git = "https://github.com/n0-computer/iroh-ffi", branch = "feat-external-protos" }
 
 
 [dev-dependencies]
