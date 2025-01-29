@@ -1,0 +1,20 @@
+[build-system]
+requires = ["maturin>=1.2,<2.0", "uniffi-bindgen", "iroh>=0.31.0"]
+build-backend = "maturin"
+
+[project]
+name = "iroh-gossip"
+version = "0.31.0"
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: System :: Networking",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+readme = "README.md"
+
+[tool.maturin]
+module-name = "iroh_gossip"

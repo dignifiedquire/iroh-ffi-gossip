@@ -1,0 +1,19 @@
+[bindings.kotlin]
+package_name = "computer.iroh_gossip"
+cdylib_name = "iroh_ffi_gossip"
+# android = true
+
+[bindings.kotlin.external_packages]
+iroh-ffi = "iroh"
+
+[bindings.python]
+cdylib_name = "iroh_ffi_gossip"
+
+[bindings.python.external_packages]
+iroh_ffi = "iroh"
+
+[bindings.swift]
+cdylib_name = "iroh_ffi_gossip"
+
+[bindings.swift.external_packages]
+iroh-ffi = "iroh"
