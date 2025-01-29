@@ -1,3 +1,7 @@
+// Duplicating error types for now
+// Once https://github.com/mozilla/uniffi-rs/issues/2392 is resolved
+// we can use external error types
+
 /// An Error.
 #[derive(Debug, thiserror::Error, uniffi::Object)]
 #[error("{e:?}")]
